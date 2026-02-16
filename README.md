@@ -45,7 +45,7 @@ Le rooting, c'est avoir les privilèges super-utilisateur (root) sur le système
 
 *Intégrité Système* : proteger le systeme des modifications non autorisee.
 
-- Schéma : Chaîne de Confiance (Verified Boot / AVB
+- Schéma : Chaîne de Confiance (Verified Boot / AVB)
 
  "Chain Of Trust" est une série de vérifications où chaque composant vérifie l'authenticité du suivant avant de lui faire confiance.
 
