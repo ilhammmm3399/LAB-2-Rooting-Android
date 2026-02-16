@@ -1,4 +1,7 @@
-# mobile-security-LAB-2
+# mobile-apps-security-LAB-2
+
+## Rooting Android
+
 Auteur : Ilham Bazar | Date : 15 Février 2026.
 
 1. Introduction :
