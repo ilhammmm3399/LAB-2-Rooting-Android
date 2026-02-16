@@ -84,7 +84,21 @@ L'AVB (v2.0) utilise une protection anti-rollback contre l'installation de versi
 
 <img width="1536" height="1496" alt="image" src="https://github.com/user-attachments/assets/2e48c70d-0df9-4f16-ac12-c7a8aea11db8" />
 
+
+
+- Vérifications :
+
 <img width="1600" height="369" alt="image" src="https://github.com/user-attachments/assets/a3c06cd1-59cb-4fc4-9220-c46e3381b696" />
+
+
+
+     Interprétation :
+
+       uid=0(root) confirme que nous avons les privilèges root
+
+       Un état "orange" indique que l'intégrité du système n'est plus garantie
+
+       La commande su teste si on peut obtenir les privilèges superutilisateur à l'intérieur du shell
 
 
 
@@ -96,7 +110,7 @@ L'AVB (v2.0) utilise une protection anti-rollback contre l'installation de versi
 
 5. Gestion des Risques & Mesures Défensives 
 
-| Risque Identifié (Étape 11) | Mesure Défensive Appliquée (Étape 12) |
+| Risque Identifié | Mesure Défensive Appliquée  |
 | --- | --- |
 | **1. Communication non contrôlée** | **Réseau isolé** pour éviter toute communication vers l'extérieur. |
 | **2. Fuite de données réelles** | **Données fictives uniquement** pour éliminer tout risque de fuite. |
